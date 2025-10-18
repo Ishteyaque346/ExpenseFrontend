@@ -5,7 +5,7 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVa
 import { useDispatch } from 'react-redux'
 import ExpenseTable from './ExpenseTable'
 import { setCategory, setDoneExpense } from '@/redux/expenseSlice'
-import usetGetExpenses from '@/hooks/userGetEexpenses'
+import usetGetExpenses from '@/hooks/useGetEexpenses'
  
 const Home = () => {
   usetGetExpenses();
