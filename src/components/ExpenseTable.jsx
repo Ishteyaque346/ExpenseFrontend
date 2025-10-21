@@ -76,7 +76,7 @@ const TableDemo = () => {
 
 
   return (
-    <div className="flex items-centre my-5">
+    <div className="flex items-right my-5">
       <Table >
         <TableCaption>A list of your recent expnses.</TableCaption>
         <TableHeader>
